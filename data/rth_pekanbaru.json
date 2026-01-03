@@ -1,0 +1,1110 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [101.4379666666667, 0.5451944444444444]
+            },
+            "properties": {
+                "nama_rth": "RTH Taman bacaan rumbai",
+                "lokasi_lengkap": "Jl. Yos Sudarso, Pekanbaru, Meranti Pandak, Kec. Rumbai Pesisir, Kota Pekanbaru, Riau",
+                "pemilik": "Pemerintah Kota",
+                "luas_m2": 4493
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [101.43705277777779, 0.5397527777777778]
+            },
+            "properties": {
+                "nama_rth": "RTH Taman bawh Leighton I",
+                "lokasi_lengkap": "Jl. Yos Sudarso, Kp. Bandar, Kec. Senapelan, Kota Pekanbaru, Riau",
+                "pemilik": "Pemerintah Kota",
+                "luas_m2": 12251
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [101.4533805555556, 0.5128583333333333]
+            },
+            "properties": {
+                "nama_rth": "RTH Taman Cinta Raja",
+                "lokasi_lengkap": "Jl. Amir Hamzah, Cinta Raja, Kec. Sail, Kota Pekanbaru, Riau 28127",
+                "pemilik": "Pemerintah Kota",
+                "luas_m2": 1672
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [101.4454805555556, 0.5154083333333334]
+            },
+            "properties": {
+                "nama_rth": "RTH Taman Cut Nyak Dien",
+                "lokasi_lengkap": "Jl. Cut Nyak Dhien II, Jadirejo, Kec. Sukajadi, Kota Pekanbaru, Riau",
+                "pemilik": "Pemerintah Kota",
+                "luas_m2": 1705
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [101.4510472222222, 0.51645]
+            },
+            "properties": {
+                "nama_rth": "RTH Taman Kayu Putih",
+                "lokasi_lengkap": "Jl. Tambelan RW.03, Simpang Empat, Kec. Pekanbaru Kota, Kota Pekanbaru, Riau",
+                "pemilik": "Masyarakat/ Perorangan",
+                "luas_m2": 3970
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [101.5396972222222, 0.5167611111111111]
+            },
+            "properties": {
+                "nama_rth": "RTH Taman Komplek Perkantoran Tenayan Raya",
+                "lokasi_lengkap": "Jl. Abdul rahman Hamid Sail, Kec. Tenayan Raya, Kota Pekanbaru, Riau",
+                "pemilik": "Pemerintah Kota",
+                "luas_m2": 1002844
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [101.4516138888889, 0.51435]
+            },
+            "properties": {
+                "nama_rth": "RTH Taman Kota Diponogoro",
+                "lokasi_lengkap": "Jl. Siberut, Simpang Empat, Kec. Pekanbaru Kota, Kota Pekanbaru, Riau",
+                "pemilik": "Pemerintah Provinsi",
+                "luas_m2": 17228
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [101.4433277777778, 0.5369805555555556]
+            },
+            "properties": {
+                "nama_rth": "RTH Taman Pasar bawah",
+                "lokasi_lengkap": "Jl. Saleh Abbas 42, Kp. Dalam, Kec. Senapelan, Kota Pekanbaru, Riau",
+                "pemilik": "Pemerintah Kota",
+                "luas_m2": 775
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [101.4483388888889, 0.5137222222222222]
+            },
+            "properties": {
+                "nama_rth": "RTH Taman Putri Kaca Mayang",
+                "lokasi_lengkap": "Jl. Jend. Sudirman No.474, Jadirejo, Kec. Sukajadi, Kota Pekanbaru, Riau",
+                "pemilik": "Pemerintah Kota",
+                "luas_m2": 12074
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [101.4540277777778, 0.477575]
+            },
+            "properties": {
+                "nama_rth": "RTH Taman Segitiga MTQ",
+                "lokasi_lengkap": "Jl. Jend. Sudirman, Sidomulyo Tim., Kec. Marpoyan Damai, Kota Pekanbaru, Riau",
+                "pemilik": "Pemerintah Kota",
+                "luas_m2": 8783
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [101.5094138888889, 0.5069472222222222]
+            },
+            "properties": {
+                "nama_rth": "RTH Taman Simpang Badak",
+                "lokasi_lengkap": "Jl. Hangtuah Ujung No.Pertigaan, Simpang, Kec. Bukit Raya, Kota Pekanbaru, Riau",
+                "pemilik": "Pemerintah Kota",
+                "luas_m2": 1687
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [101.46711944444441, 0.5109972222222222]
+            },
+            "properties": {
+                "nama_rth": "RTH Taman Sungai Batak",
+                "lokasi_lengkap": "Jl. Akasia I, Tengkerang Utara, Kec. Bukit Raya, Kota Pekanbaru, Riau",
+                "pemilik": "Pemerintah Kota",
+                "luas_m2": 1509
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [101.4398222222222, 0.5404527777777778]
+            },
+            "properties": {
+                "nama_rth": "RTH Taman Tuan Kadi",
+                "lokasi_lengkap": "Jl. Perdagangan Kp. Bandar, Kec. Senapelan, Kota Pekanbaru, Riau",
+                "pemilik": "Pemerintah Kota",
+                "luas_m2": 5226
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [101.44808055555561, 0.4715527777777778]
+            },
+            "properties": {
+                "nama_rth": "RTH Taman Tugu Pesawat depan Auri",
+                "lokasi_lengkap": "Jl. Rw. Mulia No.1, Sidomulyo Tim., Kec. Marpoyan Damai, Kota Pekanbaru, Riau",
+                "pemilik": "Pemerintah Kota",
+                "luas_m2": 1715
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [101.44295, 0.5354472222222222]
+            },
+            "properties": {
+                "nama_rth": "RTH Taman Tunjuk Ajar Integritas",
+                "lokasi_lengkap": "Jl. Jend. Ahmad Yani 2, Kp. Bandar, Kec. Senapelan, Kota Pekanbaru, Riau",
+                "pemilik": "Pemerintah Kota",
+                "luas_m2": 13495
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [101.454125, 0.5148]
+            },
+            "properties": {
+                "nama_rth": "Hutan Kota Pekanbaru",
+                "lokasi_lengkap": "Jl. Diponegoro Suka Mulia, Kec. Sail, Kota Pekanbaru, Riau",
+                "pemilik": "Pemerintah Provinsi",
+                "luas_m2": 61224
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [101.4345555555556, 0.4801666666666667]
+            },
+            "properties": {
+                "nama_rth": "Jalur Hijau Jl. Arifin ahmad",
+                "lokasi_lengkap": "Jl. Arifin Ahmad, Sidomulyo Tim., Kec. Marpoyan Damai, Kota Pekanbaru, Riau",
+                "pemilik": "Pemerintah Kota",
+                "luas_m2": 21819
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [101.4532944444445, 0.4701361111111111]
+            },
+            "properties": {
+                "nama_rth": "Jalur Hijau Jl. Bandara Su",
+                "lokasi_lengkap": "Jl. Bandara Su, Sidomulyo Tim., Kec. Marpoyan Damai, Kota Pekanbaru, Riau",
+                "pemilik": "Pemerintah Kota",
+                "luas_m2": 3654
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [101.3745472222222, 0.4658277777777778]
+            },
+            "properties": {
+                "nama_rth": "Jalur Hijau Jl. Bangau sakti",
+                "lokasi_lengkap": "Jl. Bangau Sakti, Simpang Baru, Kec. Tampan, Kota Pekanbaru, Riau",
+                "pemilik": "Pemerintah Kota",
+                "luas_m2": 6519
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [101.44611111111109, 0.5186111111111111]
+            },
+            "properties": {
+                "nama_rth": "Jalur Hijau Jl. Cut Nyak Dien",
+                "lokasi_lengkap": "Jl. Cut Nyak Dhien, Jadirejo, Kec. Sukajadi, Kota Pekanbaru, Riau",
+                "pemilik": "Pemerintah Kota",
+                "luas_m2": 6770
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [101.4525, 0.5215277777777778]
+            },
+            "properties": {
+                "nama_rth": "Jalur Hijau Jl. Diponegoro",
+                "lokasi_lengkap": "Jl. Diponegoro",
+                "pemilik": "Pemerintah Kota",
+                "luas_m2": 9816
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [101.3793055555555, 0.4642777777777778]
+            },
+            "properties": {
+                "nama_rth": "Jalur Hijau Jl. HR Subrantas",
+                "lokasi_lengkap": "Jl. HR. Soebrantas, Kec. Tampan, Kota Pekanbaru, Riau",
+                "pemilik": "Pemerintah Kota",
+                "luas_m2": 20437
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [101.4544555555556, 0.4878138888888889]
+            },
+            "properties": {
+                "nama_rth": "Jalur Hijau Jl. Jend. Sudirman",
+                "lokasi_lengkap": "Jl. Jend. Sudirman",
+                "pemilik": "Pemerintah Kota",
+                "luas_m2": 49157
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [101.36651944444441, 0.4820888888888889]
+            },
+            "properties": {
+                "nama_rth": "Jalur Hijau JL. Melati",
+                "lokasi_lengkap": "Jl. Melati, Simpang Baru, Kec. Tampan, Kota Pekanbaru, Riau",
+                "pemilik": "Pemerintah Kota",
+                "luas_m2": 8970
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [101.3945, 0.4876805555555556]
+            },
+            "properties": {
+                "nama_rth": "Jalur Hijau Jl. Naga Sakti",
+                "lokasi_lengkap": "Jl. Naga Sakti, Simpang Baru, Kec. Tampan, Kota Pekanbaru, Riau",
+                "pemilik": "Pemerintah Kota",
+                "luas_m2": 12724
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [101.45024444444449, 0.4588638888888889]
+            },
+            "properties": {
+                "nama_rth": "Jalur Hijau Jl. Pahlawan kerja",
+                "lokasi_lengkap": "Jl. Pahlawan Kerja, Maharatu, Kec. Marpoyan Damai, Kota Pekanbaru, Riau",
+                "pemilik": "Pemerintah Kota",
+                "luas_m2": 3704
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [101.3963111111111, 0.46876111111111107]
+            },
+            "properties": {
+                "nama_rth": "Jalur Hijau Jl. Rajawali Sakti",
+                "lokasi_lengkap": "Jl. Rajawali Sakti, Simpang Baru, Kec. Tampan, Kota Pekanbaru, Riau",
+                "pemilik": "Pemerintah Kota",
+                "luas_m2": 10562
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [101.4338083333333, 0.508825]
+            },
+            "properties": {
+                "nama_rth": "Jalur Hijau Jl. Rajawali Sakti",
+                "lokasi_lengkap": "Jl. Rajawali, Kp. Melayu, Kec. Sukajadi, Kota Pekanbaru, Riau",
+                "pemilik": "Pemerintah Kota",
+                "luas_m2": 3117
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [101.4267055555556, 0.4702055555555555]
+            },
+            "properties": {
+                "nama_rth": "Jalur Hijau JL. Rambutan",
+                "lokasi_lengkap": "Jl. Rambutan, Sidomulyo Tim., Kec. Marpoyan Damai, Kota Pekanbaru, Riau",
+                "pemilik": "Pemerintah Kota",
+                "luas_m2": 3939
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [101.45016388888889, 0.5587611111111111]
+            },
+            "properties": {
+                "nama_rth": "Jalur Hijau JL. Sembilang",
+                "lokasi_lengkap": "Jl, Sembilang",
+                "pemilik": "Pemerintah Kota",
+                "luas_m2": 6610
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [101.3943888888889, 0.4988333333333334]
+            },
+            "properties": {
+                "nama_rth": "Jalur Hijau Jl. SM Amin",
+                "lokasi_lengkap": "Jl. SM Amin",
+                "pemilik": "Pemerintah Kota",
+                "luas_m2": 26222
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [101.4071055555556, 0.4815666666666667]
+            },
+            "properties": {
+                "nama_rth": "Jalur Hijau Jl. Srikandi",
+                "lokasi_lengkap": "JL. Srikandi",
+                "pemilik": "Pemerintah Kota",
+                "luas_m2": 5064
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [101.4183333333333, 0.4614166666666667]
+            },
+            "properties": {
+                "nama_rth": "Jalur Hijau Jl. Sukarno Hatta",
+                "lokasi_lengkap": "Jl. Sukarno Hatta",
+                "pemilik": "Pemerintah Kota",
+                "luas_m2": 54076
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [101.45366666666671, 0.5258333333333334]
+            },
+            "properties": {
+                "nama_rth": "Jalur Hijau Jl. Sultan Syarif Qasim",
+                "lokasi_lengkap": "Jl. Sultan Syarif Qasim",
+                "pemilik": "Pemerintah Kota",
+                "luas_m2": 5978
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [101.39936111111111, 0.4980833333333333]
+            },
+            "properties": {
+                "nama_rth": "Jalur Hijau Jl. T. Tambusai",
+                "lokasi_lengkap": "Jl. T. Tambusai",
+                "pemilik": "Pemerintah Kota",
+                "luas_m2": 35403
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [101.4216944444445, 0.60175]
+            },
+            "properties": {
+                "nama_rth": "Jalur Hijau Jl. Yos Sudarso",
+                "lokasi_lengkap": "Jl. Yos Sudarso",
+                "pemilik": "Pemerintah Kota",
+                "luas_m2": 35801
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [101.4425277777778, 0.4308333333333333]
+            },
+            "properties": {
+                "nama_rth": "Jalur Hijau Jl.KH Nasution",
+                "lokasi_lengkap": "Jl. Kaharuddin Nasution, Maharatu, Kec. Marpoyan Damai, Kota Pekanbaru, Riau",
+                "pemilik": "Pemerintah Kota",
+                "luas_m2": 14682
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [101.4502388888889, 0.5117722222222222]
+            },
+            "properties": {
+                "nama_rth": "Jalur Hijau Jl. Sumatra",
+                "lokasi_lengkap": "Jl. Sumatera, Simpang Empat, Kec. Pekanbaru Kota, Kota Pekanbaru, Riau",
+                "pemilik": "Pemerintah Kota",
+                "luas_m2": 3722
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [101.4564166666667, 0.5255583333333334]
+            },
+            "properties": {
+                "nama_rth": "Jalur Hijau Jl. Dr. Sutomo",
+                "lokasi_lengkap": "Jl. Dr. Sutomo",
+                "pemilik": "Pemerintah Kota",
+                "luas_m2": 1888
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [101.4805388888889, 0.5457444444444445]
+            },
+            "properties": {
+                "nama_rth": "Jalur Hijau Jl. Karya Bersama",
+                "lokasi_lengkap": "Jl. Karya Bersama",
+                "pemilik": "Pemerintah Kota",
+                "luas_m2": 391
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [101.47872777777781, 0.5497277777777778]
+            },
+            "properties": {
+                "nama_rth": "Jalur Hijau Jl. Kp. Baru",
+                "lokasi_lengkap": "Jl. Kpg. Baru, Rejosari, Kec. Tenayan Raya, Kota Pekanbaru, Riau",
+                "pemilik": "Pemerintah Kota",
+                "luas_m2": 1715
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [101.45846666666669, 0.51715]
+            },
+            "properties": {
+                "nama_rth": "Jalur Hijau Jl. Letjend S Parman",
+                "lokasi_lengkap": "Jl. Letjend S Parman ( Jl. Beringin )",
+                "pemilik": "Pemerintah Kota",
+                "luas_m2": 108
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [101.4538638888889, 0.5161444444444444]
+            },
+            "properties": {
+                "nama_rth": "Jalur Hijau Jl. MH Thamrin",
+                "lokasi_lengkap": "Jl. MH Thamrin, Suka Mulia, Kec. Sail, Kota Pekanbaru, Riau",
+                "pemilik": "Pemerintah Kota",
+                "luas_m2": 1999
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [101.4551944444444, 0.5189555555555556]
+            },
+            "properties": {
+                "nama_rth": "Jalur Hijau Jl. Petalabumi",
+                "lokasi_lengkap": "Jl. Petalabumi",
+                "pemilik": "Pemerintah Kota",
+                "luas_m2": 833
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [101.45636111111109, 0.5132]
+            },
+            "properties": {
+                "nama_rth": "Jalur Hijau Jl. Ronggo Warsito",
+                "lokasi_lengkap": "Jl. Ronggo Warsito, Suka Maju, Kec. Sail, Kota Pekanbaru, Riau",
+                "pemilik": "Pemerintah Kota",
+                "luas_m2": 2251
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [101.4798111111111, 0.5491166666666667]
+            },
+            "properties": {
+                "nama_rth": "Jalur Hijau Jl. Rusunawa Rejosari",
+                "lokasi_lengkap": "Jl. Rusunawa , Rejosari, Kec. Tenayan Raya, Kota Pekanbaru, Riau",
+                "pemilik": "Pemerintah Kota",
+                "luas_m2": 627
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [101.4635833333333, 0.5402166666666667]
+            },
+            "properties": {
+                "nama_rth": "Jalur Hijau Jl. Sumber Sari",
+                "lokasi_lengkap": "Jl. Sumber Sari, Tj. Rhu, Kec. Lima Puluh, Kota Pekanbaru, Riau",
+                "pemilik": "Pemerintah Kota",
+                "luas_m2": 789
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [101.47200833333331, 0.5439416666666667]
+            },
+            "properties": {
+                "nama_rth": "Jalur Hijau Jl. Sumber Sari I",
+                "lokasi_lengkap": "Jl. Sumber Sari I",
+                "pemilik": "Pemerintah Kota",
+                "luas_m2": 3481
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [101.45458888888891, 0.5380388888888888]
+            },
+            "properties": {
+                "nama_rth": "Jalur Hijau Jl. Tanjung Datuk",
+                "lokasi_lengkap": "Jl. Tanjung Datuk, Pesisir, Kec. Lima Puluh, Kota Pekanbaru, Riau",
+                "pemilik": "Pemerintah Kota",
+                "luas_m2": 2323
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [101.49247777777779, 0.5439361111111111]
+            },
+            "properties": {
+                "nama_rth": "Jalur Hijau Jl. Tenayan Jaya",
+                "lokasi_lengkap": "Jl. Tenayan Jaya, Sail, Kec. Tenayan Raya, Kota Pekanbaru, Riau",
+                "pemilik": "Pemerintah Kota",
+                "luas_m2": 2173
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [101.384525, 0.5025972222222222]
+            },
+            "properties": {
+                "nama_rth": "Jalur Hijau Jl. Air Hitam",
+                "lokasi_lengkap": "Jl. Air Hitam",
+                "pemilik": "Pemerintah Kota",
+                "luas_m2": 3834
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [101.4543222222222, 0.4811833333333334]
+            },
+            "properties": {
+                "nama_rth": "Jalur Hijau Jl. Datuk Setia Maharaja",
+                "lokasi_lengkap": "Jl. Datuk Setia Maharaja, Tengkerang Sel., Kec. Bukit Raya, Kota Pekanbaru, Riau",
+                "pemilik": "Pemerintah Kota",
+                "luas_m2": 5435
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [101.45710277777781, 0.4809388888888889]
+            },
+            "properties": {
+                "nama_rth": "Jalur Hijau Jl. Datuk Wan Abdul Jamal",
+                "lokasi_lengkap": "Jl. Datuk Wan Abdul Jamal, Simpang Tiga, Kec. Bukit Raya, Kota Pekanbaru, Riau",
+                "pemilik": "Pemerintah Kota",
+                "luas_m2": 3258
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [101.45216944444449, 0.517588888888889]
+            },
+            "properties": {
+                "nama_rth": "Jalur Hijau Jl. Gajah Mada",
+                "lokasi_lengkap": "Jl. Gajah Mada, Simpang Empat, Kec. Pekanbaru Kota, Kota Pekanbaru, Riau",
+                "pemilik": "Pemerintah Kota",
+                "luas_m2": 2345
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [101.4477777777778, 0.5253305555555556]
+            },
+            "properties": {
+                "nama_rth": "Jalur Hijau Jl. Hangtuah",
+                "lokasi_lengkap": "Jl. Hangtuah",
+                "pemilik": "Pemerintah Kota",
+                "luas_m2": 11575
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [101.4474138888889, 0.5358972222222222]
+            },
+            "properties": {
+                "nama_rth": "Jalur Hijau Jl. Juanda",
+                "lokasi_lengkap": "Jl. Ir. H. Juanda, Kp. Dalam, Kec. Senapelan, Kota Pekanbaru, Riau",
+                "pemilik": "Pemerintah Kota",
+                "luas_m2": 242
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [101.4685694444444, 0.4782555555555555]
+            },
+            "properties": {
+                "nama_rth": "Jalur Hijau Jl. Labersa",
+                "lokasi_lengkap": "Jl. Labersa, Simpang Tiga, Kec. Bukit Raya, Kota Pekanbaru, Riau",
+                "pemilik": "Pemerintah Kota",
+                "luas_m2": 10589
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [101.41113055555555, 0.5303722222222222]
+            },
+            "properties": {
+                "nama_rth": "Jalur Hijau Jl. Riau",
+                "lokasi_lengkap": "Jl. Riau, Air Hitam, Kec. Payung Sekaki, Kota Pekanbaru, Riau",
+                "pemilik": "Pemerintah Kota",
+                "luas_m2": 1416
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [101.4013944444444, 0.538525]
+            },
+            "properties": {
+                "nama_rth": "Jalur Hijau Jl. Riau Ujung",
+                "lokasi_lengkap": "Jl. Riau Ujung, Air Hitam, Kec. Payung Sekaki, Kota Pekanbaru, Riau",
+                "pemilik": "Pemerintah Kota",
+                "luas_m2": 10074
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [101.45025, 0.5150833333333333]
+            },
+            "properties": {
+                "nama_rth": "Jalur Hijau Jl. Setia budi",
+                "lokasi_lengkap": "Jl. Setia Budi",
+                "pemilik": "Pemerintah Kota",
+                "luas_m2": 2697
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [101.45330555555555, 0.5298833333333333]
+            },
+            "properties": {
+                "nama_rth": "Jalur Hijau Jl. Sisingamangaraja",
+                "lokasi_lengkap": "Jl. Sisingamangaraja",
+                "pemilik": "Pemerintah Kota",
+                "luas_m2": 1391
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [101.45377777777779, 0.5284166666666666]
+            },
+            "properties": {
+                "nama_rth": "Jalur Hijau Jl. Sudirman/ Pangeran Hidayat",
+                "lokasi_lengkap": "Jl. Jend. Sudirman",
+                "pemilik": "Pemerintah Kota",
+                "luas_m2": 1693
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [101.4746666666667, 0.5367527777777778]
+            },
+            "properties": {
+                "nama_rth": "Jalur Hijau Jl. Imam Munandar/ Harapan raya",
+                "lokasi_lengkap": "Jl. Imam Munandar",
+                "pemilik": "Pemerintah Kota",
+                "luas_m2": 13620
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [101.3533888888889, 0.4913611111111111]
+            },
+            "properties": {
+                "nama_rth": "Jalur Hijau Jl. Cipta karya",
+                "lokasi_lengkap": "Jl. Cipta Karya, Sido Mulyo Barat, Kec. Tampan, Kota Pekanbaru, Riau",
+                "pemilik": "Pemerintah Kota",
+                "luas_m2": 4547
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [101.33230555555555, 0.45788888888888887]
+            },
+            "properties": {
+                "nama_rth": "Jalur Hijau Jl. Garuda sakti",
+                "lokasi_lengkap": "Jl. Garuda sakti, Simpang Baru, Kec. Tampan, Kota Pekanbaru, Riau",
+                "pemilik": "Pemerintah Kota",
+                "luas_m2": 22002
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [101.4728333333333, 0.5562777777777778]
+            },
+            "properties": {
+                "nama_rth": "Jalur Hijau Jl. Kapling",
+                "lokasi_lengkap": "Jl. Kapling",
+                "pemilik": "Pemerintah Kota",
+                "luas_m2": 1301
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [101.3276666666667, 0.4664722222222222]
+            },
+            "properties": {
+                "nama_rth": "Jalur Hijau Jl. Kubang raya",
+                "lokasi_lengkap": "Jl. Kubang Raya, Tuah Karya, Kec. Tampan, Kota Pekanbaru, Riau",
+                "pemilik": "Pemerintah Kota",
+                "luas_m2": 6670
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [101.4258333333333, 0.47055555555555555]
+            },
+            "properties": {
+                "nama_rth": "Jalur Hijau Jl. Punai",
+                "lokasi_lengkap": "Jl. Punai",
+                "pemilik": "Pemerintah Kota",
+                "luas_m2": 1780
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [101.45525, 0.53675]
+            },
+            "properties": {
+                "nama_rth": "Jalur Hijau Jl. Sam ratulangi",
+                "lokasi_lengkap": "Jl. Sam Ratulangi",
+                "pemilik": "Pemerintah Kota",
+                "luas_m2": 724
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [101.4542222222222, 0.5317777777777778]
+            },
+            "properties": {
+                "nama_rth": "Jalur Hijau Jl. Teuku umar",
+                "lokasi_lengkap": "Jl. Teuku Umar",
+                "pemilik": "Pemerintah Kota",
+                "luas_m2": 2229
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [101.4338333333333, 0.4996111111111111]
+            },
+            "properties": {
+                "nama_rth": "Jalur Hijau Jl. Tuanku tambusai",
+                "lokasi_lengkap": "Jl. Tuanku Tambusai",
+                "pemilik": "Pemerintah Kota",
+                "luas_m2": 7091
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [101.42436111111111, 0.5847777777777778]
+            },
+            "properties": {
+                "nama_rth": "Jalur Hijau Jl. Umban sari",
+                "lokasi_lengkap": "Jl. Umban Sari, Umban Sari, Kec. Rumbai, Kota Pekanbaru, Riau",
+                "pemilik": "Pemerintah Kota",
+                "luas_m2": 1755
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [101.4385, 0.5471666666666666]
+            },
+            "properties": {
+                "nama_rth": "Jalur Hijau Jl. Yos Sudarso",
+                "lokasi_lengkap": "Jl. Yos Sudarso, Meranti Pandak, Kec. Rumbai Pesisir, Kota Pekanbaru, Riau",
+                "pemilik": "Pemerintah Kota",
+                "luas_m2": 18274
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [101.4485, 0.5218055555555556]
+            },
+            "properties": {
+                "nama_rth": "Jalur Hijau Jl. Hangtuah",
+                "lokasi_lengkap": "Jl. Hangtuah, Sumahilang, Kec. Pekanbaru Kota, Kota Pekanbaru, Riau",
+                "pemilik": "Pemerintah Kota",
+                "luas_m2": 692
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [101.4526388888889, 0.5235555555555556]
+            },
+            "properties": {
+                "nama_rth": "Jalur Hijau Jl. M. Yamin",
+                "lokasi_lengkap": "Jl. M. Yamin",
+                "pemilik": "Pemerintah Kota",
+                "luas_m2": 2045
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [101.46327777777778, 0.5284166666666666]
+            },
+            "properties": {
+                "nama_rth": "Jalur Hijau Jl. Meranti",
+                "lokasi_lengkap": "Jl. Meranti, Rintis, Kec. Lima Puluh, Kota Pekanbaru, Riau",
+                "pemilik": "Pemerintah Kota",
+                "luas_m2": 456
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [101.45169444444445, 0.5312777777777778]
+            },
+            "properties": {
+                "nama_rth": "Jalur Hijau Jl. Pangeran Hidayat",
+                "lokasi_lengkap": "Jl. Pangeran Hidayat, Sago, Kec. Senapelan, Kota Pekanbaru, Riau",
+                "pemilik": "Pemerintah Kota",
+                "luas_m2": 1133
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [101.4589722222222, 0.5375555555555555]
+            },
+            "properties": {
+                "nama_rth": "Jalur Hijau Jl. Pangeran Hidayat Ujung",
+                "lokasi_lengkap": "Jl. Pangeran Hidayat Ujung",
+                "pemilik": "Pemerintah Kota",
+                "luas_m2": 1137
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [101.4526388888889, 0.5253055555555556]
+            },
+            "properties": {
+                "nama_rth": "Jalur Hijau Jl. Patimura",
+                "lokasi_lengkap": "Jl. Patimura",
+                "pemilik": "Pemerintah Kota",
+                "luas_m2": 105
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [101.4036944444445, 0.5353333333333333]
+            },
+            "properties": {
+                "nama_rth": "Tugu Gemar Menabung",
+                "lokasi_lengkap": "Jl. Riau Ujung, Air Hitam, Kec. Payung Sekaki, Kota Pekanbaru, Riau",
+                "pemilik": "Pemerintah Kota",
+                "luas_m2": 1160
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [101.45211111111109, 0.51025]
+            },
+            "properties": {
+                "nama_rth": "Tugu Keris",
+                "lokasi_lengkap": "Jl. Diponegoro, Cinta Raja, Kec. Sail, Kota Pekanbaru, Riau",
+                "pemilik": "Pemerintah Kota",
+                "luas_m2": 685
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [101.43002777777779, 0.5694166666666667]
+            },
+            "properties": {
+                "nama_rth": "Tugu Kompang",
+                "lokasi_lengkap": "Jl. Yos Sudarso, Kec. Rumbai Pesisir, Kota Pekanbaru, Riau",
+                "pemilik": "Pemerintah Kota",
+                "luas_m2": 746
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [101.44791666666669, 0.5130833333333333]
+            },
+            "properties": {
+                "nama_rth": "Tugu Selais/ Air Mancur Tugu Selais",
+                "lokasi_lengkap": "Jl. Jend. Sudirman, Simpang Empat, Kec. Pekanbaru Kota, Kota Pekanbaru, Riau",
+                "pemilik": "Pemerintah Kota",
+                "luas_m2": 647
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [101.3944722222222, 0.4974444444444444]
+            },
+            "properties": {
+                "nama_rth": "Tugu Songket",
+                "lokasi_lengkap": "Jl. SM. Amin, Kec. Marpoyan Damai",
+                "pemilik": "Pemerintah Kota",
+                "luas_m2": 632
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [101.45025, 0.5150833333333333]
+            },
+            "properties": {
+                "nama_rth": "Tugu Zapin",
+                "lokasi_lengkap": "Jl. Sudirman, Simpang Empat, Kec. Pekanbaru Kota, Kota Pekanbaru, Riau",
+                "pemilik": "Pemerintah Kota",
+                "luas_m2": 269
+            }
+        }
+    ]
+}
