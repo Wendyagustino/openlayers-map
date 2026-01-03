@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Edit Data RTH</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="bg-input">
+    <nav class="navbar">
+        <div class="nav-brand">SIG RTH - Edit Data</div>
+        <div class="nav-links"><a href="list.html">Kembali ke Daftar</a></div>
+    </nav>
+
+    <div class="input-wrapper">
+        <form id="edit-rth-form" class="rth-grid-form">
+            <div class="form-section">
+                <label>Nama RTH</label>
+                <input type="text" id="nama_rth" required>
+                
+                <label>Jenis RTH</label>
+                <select id="jenis_rth">
+                    <option value="Taman Kota">Taman Kota</option>
+                    <option value="Jalur Hijau">Jalur Hijau</option>
+                    <option value="Hutan Kota">Hutan Kota</option>
+                    <option value="Kebun Bibit">Kebun Bibit</option>
+                </select>
+
+                <label>Pemilik</label>
+                <select id="pemilik">
+                    <option value="Pemerintah Kota">Pemerintah Kota</option>
+                    <option value="Pemerintah Provinsi">Pemerintah Provinsi</option>
+                    <option value="Masyarakat/ Perorangan">Masyarakat/ Perorangan</option>
+                </select>
+
+                <label>LAT</label>
+                <input type="number" step="any" id="lat" required>
+            </div>
+
+            <div class="form-section">
+                <label>LONG</label>
+                <input type="number" step="any" id="long" required>
+
+                <label>Kategori Fasilitas</label>
+                <input type="text" id="fasilitas_status" readonly class="readonly-input">
+
+                <div class="fasilitas-card">
+                    <label>Detail Fasilitas</label>
+                    <div class="checkbox-container">
+                        <label><input type="checkbox" class="fasilitas-checkbox" value="Tempat Duduk"> Tempat Duduk</label>
+                        <label><input type="checkbox" class="fasilitas-checkbox" value="Tempat Sampah"> Tempat Sampah</label>
+                        <label><input type="checkbox" class="fasilitas-checkbox" value="Penerangan"> Penerangan</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="full-width">
+                <button type="submit" id="btn-update">SIMPAN PERUBAHAN</button>
+            </div>
+        </form>
+    </div>
+    <script type="module" src="edit.js"></script>
+</body>
+</html>

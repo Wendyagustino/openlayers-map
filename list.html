@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daftar RTH - SIG Pekanbaru</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="bg-input">
+    <nav class="navbar">
+        <div class="nav-brand">SIG RTH</div>
+        <div class="nav-links">
+            <a href="index.html">Peta Utama</a>
+            <a href="input.html">Input Data</a>
+            <a href="list.html" class="active">Daftar Tabel</a>
+        </div>
+    </nav>
+
+    <div class="container-list">
+        <div class="header-list">
+            <h2>Daftar Ruang Terbuka Hijau</h2>
+            <p>Menampilkan data atribut dari database Supabase</p>
+        </div>
+
+        <div id="rth-card-container" class="card-grid">
+            <p id="loading-text">Memuat data...</p>
+        </div>
+    </div>
+
+    <script type="module" src="list.js"></script>
+</body>
+</html>
