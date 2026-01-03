@@ -1,0 +1,72 @@
+/* ===== MAP PAGE ONLY ===== */
+.map-page {
+  margin: 0;
+  padding: 0;
+}
+
+/* MAP */
+.map-page .ol-map {
+  width: 100%;
+  height: 100vh;
+}
+
+/* FILTER */
+.map-page .ol-overlay-container {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: rgba(255,255,255,0.95);
+  padding: 14px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,.25);
+  z-index: 1000;
+  font-family: sans-serif;
+  font-size: 13px;
+}
+
+.map-page .ol-overlay-container label {
+  display: block;
+  margin-bottom: 6px;
+  cursor: pointer;
+}
+
+.map-page .ol-overlay-header {
+  margin-bottom: 8px;
+  font-size: 14px;
+  border-bottom: 1px solid #ccc;
+}
+
+/* LEGEND */
+.map-page .ol-legend {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  background: white;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,.2);
+}
+
+.map-page .ol-legend img {
+  width: 18px;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+/* POPUP */
+.map-page .ol-popup {
+  position: absolute;
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  min-width: 260px;
+}
+
+.map-page .ol-popup-closer {
+  position: absolute;
+  top: 5px;
+  right: 8px;
+  cursor: pointer;
+}

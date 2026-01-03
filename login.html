@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Login | GREENPKU GIS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="test.css">
+</head>
+<body>
+
+<div class="auth-container">
+    <div class="auth-left">
+        <div class="auth-overlay"></div> <div class="auth-logo">
+            <img src="pict/logo.png" alt="GREENPKU">
+            <h2>GREENPKU</h2>
+            <span>GIS ADMIN PANEL</span>
+        </div>
+    </div>
+
+    <div class="auth-right">
+        <div class="auth-box">
+            <h1>Login</h1>
+            <div class="input-group">
+                <input type="text" id="admin_name" placeholder="Nama Admin" required>
+                <input type="password" id="admin_password" placeholder="Password" required>
+            </div>
+            <button id="btnLogin" onclick="handleLogin()">Masuk ke Dashboard</button>
+            <p id="error-msg" style="color: red; text-align: center; margin-top: 15px; display: none;"></p>
+        </div>
+    </div>
+</div>
+
+<script type="module" src="login.js"></script>
+</body>
+</html>

@@ -2,46 +2,45 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/x-icon" href="https://openlayers.org/favicon.ico" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://openlayers.org/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- CSS KHUSUS MAP -->
+    <link rel="stylesheet" href="map.css">
+
     <title>OpenLayers - Filter RTH</title>
 </head>
-<body>
-    <div id="map" class="map"></div>
 
-    <div class="overlay-container" style="position: absolute; top: 10px; right: 10px; background: rgba(255,255,255,0.9); padding: 15px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.2); z-index: 1000; font-family: sans-serif; min-width: 180px;">
-        <h5 style="margin-top: 0; font-size: 14px; border-bottom: 1px solid #ccc; padding-bottom: 5px;">Filter Jenis RTH:</h5>
-        
-        <label style="display: block; margin-bottom: 5px; cursor: pointer;">
-            <input type="checkbox" class="filter-rth" value="Taman" checked> Taman Kota
-        </label>
-        <label style="display: block; margin-bottom: 5px; cursor: pointer;">
-            <input type="checkbox" class="filter-rth" value="Jalur Hijau" checked> Jalur Hijau
-        </label>
-        <label style="display: block; margin-bottom: 5px; cursor: pointer;">
-            <input type="checkbox" class="filter-rth" value="Hutan" checked> Hutan Kota
-        </label>
-        <label style="display: block; margin-bottom: 5px; cursor: pointer;">
-            <input type="checkbox" class="filter-rth" value="Kebun Bibit" checked> Kebun Bibit
-        </label>
+<body class="map-page">
+
+    <!-- MAP -->
+    <div id="map" class="ol-map"></div>
+
+    <!-- FILTER -->
+    <div class="ol-overlay-container">
+        <h5 class="ol-overlay-header">Filter Jenis RTH</h5>
+
+        <label><input type="checkbox" class="filter-rth" value="Taman" checked> Taman Kota</label>
+        <label><input type="checkbox" class="filter-rth" value="Jalur Hijau" checked> Jalur Hijau</label>
+        <label><input type="checkbox" class="filter-rth" value="Hutan" checked> Hutan Kota</label>
+        <label><input type="checkbox" class="filter-rth" value="Kebun Bibit" checked> Kebun Bibit</label>
     </div>
 
+    <!-- POPUP -->
     <div id="popup" class="ol-popup">
-        <a href="#" id="popup-closer" class="ol-popup-closer">✖</a>
+        <a href="#" id="popup-closer" class="ol-popup-closer"></a>
         <div id="popup-content"></div>
     </div>
 
-    <div id="legend" style="position: absolute; bottom: 20px; left: 20px; background: white; padding: 10px; border: 1px solid #ccc; border-radius: 8px; z-index: 10; font-family: sans-serif; font-size: 12px; box-shadow: 2px 2px 5px rgba(0,0,0,0.1);">
-        <h4 style="margin: 0 0 8px 0; font-size: 13px;">Keterangan Ikon</h4>
-        <div style="margin-bottom: 4px;"><img src="icon/taman.png" width="18"> Taman Kota</div>
-        <div style="margin-bottom: 4px;"><img src="icon/jalur_hijau.png" width="18"> Jalur Hijau</div>
-        <div style="margin-bottom: 4px;"><img src="icon/hutan_kota.png" width="18"> Hutan Kota</div>
-        <div style="margin-bottom: 4px;"><img src="icon/kebun_bibit.png" width="18"> Kebun Bibit</div>
+    <!-- LEGEND -->
+    <div class="ol-legend">
+        <h4>Keterangan Ikon</h4>
+        <div><img src="icon/taman.png"> Taman Kota</div>
+        <div><img src="icon/jalur_hijau.png"> Jalur Hijau</div>
+        <div><img src="icon/hutan_kota.png"> Hutan Kota</div>
+        <div><img src="icon/kebun_bibit.png"> Kebun Bibit</div>
     </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
     <script type="module" src="./main.js"></script>
 </body>
 </html>

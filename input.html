@@ -2,123 +2,238 @@
 <html lang="id">
 <head>
     <meta charset="UTF-8">
+    <title>Tambah Dataset | GREENPKU GIS</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Input Data RTH - Sistem Informasi Geografis</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="halaman.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <style>
+        /* CSS INTERNAL UNTUK KONTROL JARAK & WARNA */
+        .admin-page { background-color: #f4f7f6; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        .breadcrumb b { color: #2d5a27; font-weight: 700; }
+        
+        .form-container-admin {
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+            margin: 20px auto;
+            max-width: 1000px;
+            overflow: hidden;
+        }
+
+        .rth-modern-form { padding: 40px; }
+
+        .form-section-title {
+            font-size: 17px;
+            font-weight: 700;
+            color: #2d5a27;
+            margin: 40px 0 25px 0;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #f1f1f1;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .form-section-title:first-child { margin-top: 0; }
+
+        /* GRID DENGAN JARAK LEGA */
+        .rth-grid-form {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 30px 60px; /* Jarak vertikal 30px, horizontal 60px */
+        }
+
+        .input-box { display: flex; flex-direction: column; }
+        .input-box label {
+            font-size: 14px;
+            font-weight: 600;
+            color: #444;
+            margin-bottom: 12px;
+        }
+
+        .input-box input, .input-box select {
+            padding: 14px 16px;
+            border: 1.5px solid #e2e8f0;
+            border-radius: 10px;
+            font-size: 14px;
+            background: #fafafa;
+            transition: 0.3s;
+        }
+
+        .input-box input:focus {
+            border-color: #2d5a27;
+            background: #fff;
+            outline: none;
+            box-shadow: 0 0 0 4px rgba(45, 90, 39, 0.1);
+        }
+
+        .full-width { grid-column: span 2; }
+
+        /* CHIP CHECKBOX UNTUK FASILITAS */
+        .checkbox-container-modern { display: flex; gap: 15px; margin-top: 10px; flex-wrap: wrap; }
+        .chip-checkbox input { display: none; }
+        .chip-label {
+            padding: 12px 22px;
+            background: #f1f5f9;
+            border-radius: 50px;
+            cursor: pointer;
+            border: 1px solid #e2e8f0;
+            font-size: 13px;
+            font-weight: 500;
+            transition: 0.3s;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .chip-checkbox input:checked + .chip-label {
+            background: #2d5a27;
+            color: white;
+            border-color: #2d5a27;
+        }
+
+        .form-footer-actions {
+            margin-top: 50px;
+            padding-top: 30px;
+            border-top: 1px solid #eee;
+            display: flex;
+            justify-content: flex-end;
+            gap: 15px;
+        }
+
+        .btn-primary {
+            background: #2d5a27; color: white; border: none;
+            padding: 15px 45px; border-radius: 10px;
+            font-weight: 700; cursor: pointer; transition: 0.3s;
+        }
+        .btn-primary:hover { background: #1e4d19; transform: translateY(-2px); }
+
+        .btn-outline {
+            background: transparent; color: #666; border: 1px solid #ccc;
+            padding: 15px 45px; border-radius: 10px; cursor: pointer;
+        }
+    </style>
 </head>
-<body class="bg-input">
-    <nav class="navbar">
-        <div class="nav-brand">SIG RTH</div>
-        <div class="nav-links">
-            <a href="index.html">Peta Utama</a>
-            <a href="input.html" class="active">Input Data</a>
-            <a href="list.html">Daftar Tabel</a>
+
+<body class="admin-page">
+    <aside class="admin-sidebar">
+        <div class="admin-profile">
+            <div class="avatar-placeholder"><i class="fas fa-user-shield"></i></div>
+            <h3 id="admin-name-display">Admin</h3>
         </div>
-    </nav>
-
-    <div class="input-wrapper">
-        <div class="header-form">
-            <h2>Formulir Penambahan Data RTH</h2>
-            <p>Silahkan isi atribut data sesuai dengan kondisi di lapangan.</p>
+        <nav class="admin-menu">
+            <a href="list.php" class="active"><i class="fas fa-database"></i> Dataset</a>
+        </nav>
+        <div class="logout-section">
+            <a href="#" id="logout-btn" class="logout-link"><i class="fas fa-sign-out-alt"></i> Logout</a>
         </div>
+    </aside>
 
-        <form id="rth-form" class="rth-grid-form">
-            <div class="form-section">
-                <div class="input-box">
-                    <label>Nama RTH</label>
-                    <input type="text" id="nama_rth" placeholder="Masukkan nama taman/jalur..." required>
-                </div>
+    <main class="main-content">
+        <div class="breadcrumb">Home / Dataset / <b>Tambah Dataset</b></div>
 
-                <div class="input-box">
-                    <label>Jenis RTH</label>
-                    <select id="jenis_rth">
-                        <option value="Taman Kota">Taman Kota</option>
-                        <option value="Jalur Hijau">Jalur Hijau</option>
-                        <option value="Hutan Kota">Hutan Kota</option>
-                        <option value="Kebun Bibit">Kebun Bibit</option>
-                    </select>
-                </div>
-
-                <div class="input-box">
-                    <label>Pemilik</label>
-                    <select id="pemilik">
-                        <option value="Pemerintah Kota">Pemerintah Kota</option>
-                        <option value="Pemerintah Provinsi">Pemerintah Provinsi</option>
-                        <option value="Masyarakat/ Perorangan">Masyarakat/ Perorangan</option>
-                    </select>
-                </div>
-
-                <div class="input-box">
-                    <label>Rata-rata Pengunjung</label>
-                    <input type="number" id="pengunjung" placeholder="Jumlah orang per hari">
-                </div>
-
-                <div class="input-box">
-                    <label>Latitude (LAT)</label>
-                    <input type="number" step="any" id="lat" placeholder="Contoh: 0.5451" required>
-                </div>
-
-                <div class="input-box">
-                    <label>Tingkat Kebersihan</label>
-                    <select id="kebersihan">
-                        <option value="Rendah">Rendah</option>
-                        <option value="Sedang">Sedang</option>
-                        <option value="Tinggi">Tinggi</option>
-                    </select>
-                </div>
+        <section class="form-container-admin">
+            <div class="form-header-modern" style="background: linear-gradient(135deg, #2d5a27 0%, #3e7e36 100%); color: white; padding: 35px 40px;">
+                <h2 style="margin:0"><i class="fas fa-plus-circle"></i> Tambah Data RTH Baru</h2>
+                <p style="margin: 10px 0 0; opacity: 0.9;">Silahkan lengkapi data atribut dan koordinat lokasi.</p>
             </div>
 
-            <div class="form-section">
-                <div class="input-box">
-                    <label>Luas (m²)</label>
-                    <input type="number" step="any" id="luas" placeholder="Masukkan angka saja">
-                </div>
-
-                <div class="input-box">
-                    <label>Jenis Vegetasi</label>
-                    <input type="text" id="vegetasi" placeholder="Contoh: Angsana, Mahoni, Rumput">
-                </div>
-
-                <div class="input-box">
-                    <label>Longitude (LONG)</label>
-                    <input type="number" step="any" id="long" placeholder="Contoh: 101.4379" required>
-                </div>
-
-                <div class="input-box">
-                    <label>Lokasi / Alamat</label>
-                    <textarea id="lokasi" rows="2" placeholder="Alamat lengkap..."></textarea>
-                </div>
-
-                <div class="input-box">
-                    <label>Kategori Kelengkapan Fasilitas</label>
-                    <input type="text" id="fasilitas_status" class="readonly-input" readonly placeholder="Status otomatis...">
-                </div>
-
-                <div class="fasilitas-card">
-                    <label class="card-title">Detail Item Fasilitas</label>
-                    <div class="checkbox-container">
-                        <label class="checkbox-item">
-                            <input type="checkbox" name="fasilitas_item" value="Tempat Duduk" class="fasilitas-checkbox">
-                            <span class="checkmark"></span> Tempat Duduk
-                        </label>
-                        <label class="checkbox-item">
-                            <input type="checkbox" name="fasilitas_item" value="Tempat Sampah" class="fasilitas-checkbox">
-                            <span class="checkmark"></span> Tempat Sampah
-                        </label>
-                        <label class="checkbox-item">
-                            <input type="checkbox" name="fasilitas_item" value="Penerangan" class="fasilitas-checkbox">
-                            <span class="checkmark"></span> Penerangan
-                        </label>
+            <form id="rth-form" class="rth-modern-form">
+                <div class="form-section-title"><i class="fas fa-info-circle"></i> Informasi Dasar</div>
+                <div class="rth-grid-form">
+                    <div class="input-box">
+                        <label>Nama RTH</label>
+                        <input type="text" id="nama_rth" placeholder="Masukkan nama RTH..." required>
+                    </div>
+                    <div class="input-box">
+                        <label>Jenis RTH</label>
+                        <select id="jenis_rth">
+                            <option value="Taman Kota">Taman Kota</option>
+                            <option value="Jalur Hijau Di Jalan">Jalur Hijau Di Jalan</option>
+                            <option value="Hutan Kota">Hutan Kota</option>
+                            <option value="Kebun Bibit">Kebun Bibit</option>
+                        </select>
+                    </div>
+                    <div class="input-box">
+                        <label>Pemilik/Pengelola</label>
+                        <select id="pemilik">
+                            <option value="Pemerintah Kota">Pemerintah Kota</option>
+                            <option value="Pemerintah Provinsi">Pemerintah Provinsi</option>
+                            <option value="Masyarakat/ Perorangan">Masyarakat/ Perorangan</option>
+                        </select>
+                    </div>
+                    <div class="input-box">
+                        <label>Luas Wilayah (m²)</label>
+                        <input type="number" step="any" id="luas" placeholder="Contoh: 1500">
                     </div>
                 </div>
-            </div>
 
-            <div class="full-width">
-                <button type="submit" id="btn-simpan">SIMPAN DATA KE DATABASE</button>
-            </div>
-        </form>
-    </div>
+                <div class="form-section-title"><i class="fas fa-map-marker-alt"></i> Lokasi & Geografis</div>
+                <div class="rth-grid-form">
+                    <div class="input-box full-width">
+                        <label>Alamat / Lokasi Spesifik</label>
+                        <input type="text" id="lokasi" placeholder="Contoh: Jl. Sudirman No. 45, Kec. Pekanbaru Kota" required>
+                    </div>
+                    <div class="input-box">
+                        <label>Latitude (LAT)</label>
+                        <input type="number" step="any" id="lat" placeholder="Contoh: 0.5451" required>
+                    </div>
+                    <div class="input-box">
+                        <label>Longitude (LONG)</label>
+                        <input type="number" step="any" id="long" placeholder="Contoh: 101.4379" required>
+                    </div>
+                </div>
 
-    <script type="module" src="input.js"></script>
+                <div class="form-section-title"><i class="fas fa-leaf"></i> Kondisi & Fasilitas</div>
+                <div class="rth-grid-form">
+                    <div class="input-box">
+                        <label>Tingkat Kebersihan</label>
+                        <select id="kebersihan">
+                            <option value="Tinggi">Tinggi (Sangat Bersih)</option>
+                            <option value="Sedang">Sedang (Cukup)</option>
+                            <option value="Rendah">Rendah (Kurang Terawat)</option>
+                        </select>
+                    </div>
+                    <div class="input-box">
+                        <label>Rata-rata Pengunjung / Hari</label>
+                        <input type="number" id="pengunjung" placeholder="Estimasi jumlah orang">
+                    </div>
+                    <div class="input-box full-width">
+                        <label>Jenis Vegetasi Utama</label>
+                        <input type="text" id="vegetasi" placeholder="Sebutkan jenis pohon atau tanaman dominan...">
+                    </div>
+                    <div class="input-box full-width">
+                        <label>Pilih Item Fasilitas (Kategori dihitung otomatis)</label>
+                        <div class="checkbox-container-modern">
+                            <label class="chip-checkbox">
+                                <input type="checkbox" name="fasilitas_item" value="Tempat Duduk">
+                                <span class="chip-label"><i class="fas fa-chair"></i> Tempat Duduk</span>
+                            </label>
+                            <label class="chip-checkbox">
+                                <input type="checkbox" name="fasilitas_item" value="Tempat Sampah">
+                                <span class="chip-label"><i class="fas fa-trash"></i> Tempat Sampah</span>
+                            </label>
+                            <label class="chip-checkbox">
+                                <input type="checkbox" name="fasilitas_item" value="Penerangan">
+                                <span class="chip-label"><i class="fas fa-lightbulb"></i> Penerangan Jalan</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-footer-actions">
+                    <button type="button" class="btn-outline" onclick="window.location.href='list.php'">Batal</button>
+                    <button type="submit" class="btn-primary" id="btn-simpan">SIMPAN DATA RTH</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <script type="module" src="input.js">
+        // SESSION GUARD: Cek sebelum render halaman
+        if (!localStorage.getItem('nama_admin')) {
+            alert("Akses Ditolak! Silahkan login terlebih dahulu.");
+            window.location.href = 'login.html';
+        }
+    </script>
 </body>
 </html>

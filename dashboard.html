@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard | GREENPKU</title>
+    <link rel="stylesheet" href="test.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="user-page"> 
+    
+    <div id="header-container"></div>
+
+    <section class="hero">
+        <img src="pict/hero.jpg" alt="Pekanbaru">
+        <div class="hero-text">
+            <h1>
+                Sistem Informasi Geografis<br>
+                <span>Ruang Terbuka Hijau</span><br>
+                Kota Pekanbaru
+            </h1>
+        </div>
+    </section>
+
+    <section class="content about">
+        <div class="about-frame">
+            <h2 class="section-title">Tentang Sistem</h2>
+            <p class="about-text">
+                Website <strong>GREENPKU</strong> menyajikan persebaran <strong>Ruang Terbuka Hijau (RTH)</strong> secara visual dan interaktif untuk Kota Pekanbaru.
+            </p>
+        </div>
+    </section>
+
+    <main class="content">
+        <h2 class="section-title">Daftar Dataset</h2>
+        <div class="dataset-box">
+            <button><i class="fas fa-tree"></i> Taman Kota</button>
+            <button><i class="fas fa-leaf"></i> Hutan Kota</button>
+            <button><i class="fas fa-road"></i> Jalur Hijau</button>
+            <button><i class="fas fa-mountain"></i> Kebun Bibit</button>
+        </div>
+    </main>
+
+    <section class="content">
+    <h2 class="section-title">Peta Lokasi Keseluruhan</h2>
+    <div class="map-wrapper-fixed"> 
+        <a href="index.html" class="map-link-container">
+            <div class="map-container">
+                <div class="map-clickable-overlay"></div>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d121352.0945939042!2d101.35877377788388!3d0.5137906686681044!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31d5ab80690ee7b1%3A0x94dde92c3823dbe4!2sPekanbaru%2C%20Pekanbaru%20City%2C%20Riau!5e1!3m2!1sen!2sid!4v1767179295217!5m2!1sen!2sid"
+                    width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy">
+                </iframe>
+            </div>
+        </a>
+    </div>
+</section>
+
+    <div id="footer-container"></div>
+
+    <script>
+        const loadComponent = (id, file) => {
+            fetch(file).then(res => res.text()).then(data => {
+                document.getElementById(id).innerHTML = data;
+                if(file === 'header.html') handleActiveMenu();
+            });
+        };
+
+        function handleActiveMenu() {
+            const currentPage = window.location.pathname.split("/").pop() || "index.html";
+            document.querySelectorAll(".nav-menu a").forEach(link => {
+                link.classList.toggle("active", link.getAttribute("href") === currentPage);
+            });
+        }
+
+        loadComponent("header-container", "header.html");
+        loadComponent("footer-container", "footer.html");
+        
+    </script>
+</body>
+</html>
