@@ -1,72 +1,165 @@
-/* ===== MAP PAGE ONLY ===== */
-.map-page {
-  margin: 0;
-  padding: 0;
+/* ================= RESET ================= */
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
 }
 
-/* MAP */
-.map-page .ol-map {
-  width: 100%;
-  height: 100vh;
+/* ================= MAP ================= */
+#map {
+    height: 100%;
+    width: 100%;
 }
 
-/* FILTER */
-.map-page .ol-overlay-container {
-  position: absolute;
-  top: 15px;
-  right: 15px;
-  background: rgba(255,255,255,0.95);
-  padding: 14px;
-  border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0,0,0,.25);
-  z-index: 1000;
-  font-family: sans-serif;
-  font-size: 13px;
+/* ================= FLOATING CARD ================= */
+.map-card {
+    position: absolute;
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(6px);
+    padding: 16px 18px;
+    border-radius: 14px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+    z-index: 1000;
+    min-width: 180px;
 }
 
-.map-page .ol-overlay-container label {
-  display: block;
-  margin-bottom: 6px;
-  cursor: pointer;
+.map-card h4 {
+    margin: 0 0 10px;
+    font-size: 14px;
+    color: #2e7d32;
 }
 
-.map-page .ol-overlay-header {
-  margin-bottom: 8px;
-  font-size: 14px;
-  border-bottom: 1px solid #ccc;
+/* ================= FILTER ================= */
+.filter-card {
+    top: 20px;
+    left: 20px;
 }
 
-/* LEGEND */
-.map-page .ol-legend {
-  position: absolute;
-  bottom: 20px;
-  left: 20px;
-  background: white;
-  padding: 10px;
-  border-radius: 10px;
-  font-size: 12px;
-  box-shadow: 0 4px 10px rgba(0,0,0,.2);
+.filter-card label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 13px;
+    margin-bottom: 8px;
+    cursor: pointer;
 }
 
-.map-page .ol-legend img {
-  width: 18px;
-  vertical-align: middle;
-  margin-right: 5px;
+/* ================= LEGEND ================= */
+.legend-card {
+    bottom: 20px;
+    left: 20px;
 }
 
-/* POPUP */
-.map-page .ol-popup {
-  position: absolute;
-  background: white;
-  padding: 15px;
-  border-radius: 10px;
-  border: 1px solid #ccc;
-  min-width: 260px;
+.legend-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 12px;
+    margin-bottom: 6px;
 }
 
-.map-page .ol-popup-closer {
-  position: absolute;
-  top: 5px;
-  right: 8px;
-  cursor: pointer;
+.legend-item img {
+    width: 20px;
+}
+
+/* ================= POPUP (FIX PRESISI) ================= */
+.ol-popup {
+    position: absolute;
+    background: #ffffff;
+    border-radius: 14px;
+    padding: 14px 16px;
+    min-width: 260px;
+
+    /* 🔥 KUNCI UTAMA: NAIK LEBIH TINGGI */
+    transform: translate(-50%, -120%);
+
+    box-shadow: 0 14px 35px rgba(0, 0, 0, 0.25);
+    border-left: 5px solid #2e7d32;
+    pointer-events: auto;
+}
+
+/* ARROW */
+.ol-popup::after {
+    content: "";
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-width: 12px 12px 0;
+    border-style: solid;
+    border-color: #ffffff transparent transparent;
+}
+
+/* CLOSE BUTTON */
+.ol-popup-closer {
+    position: absolute;
+    top: 6px;
+    right: 10px;
+    text-decoration: none;
+    color: #777;
+    font-size: 14px;
+}
+
+.ol-popup-closer:hover {
+    color: #000;
+}
+
+/* ================= RESPONSIVE ================= */
+@media (max-width: 600px) {
+    .map-card {
+        min-width: 160px;
+        font-size: 12px;
+    }
+}
+
+/* ================= SLIDE BUTTON (TOGGLE) ================= */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 38px;
+    height: 20px;
+}
+
+/* Sembunyikan checkbox asli */
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+/* Background Slider */
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: .4s;
+    border-radius: 24px;
+}
+
+/* Bulatan Slider */
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 14px;
+    width: 14px;
+    left: 3px;
+    bottom: 3px;
+    background-color: white;
+    transition: .4s;
+    border-radius: 50%;
+}
+
+/* Warna saat Aktif (Checked) */
+.switch input:checked + .slider {
+    background-color: #2e7d32;
+}
+
+/* Posisi Bulatan saat Aktif */
+.switch input:checked + .slider:before {
+    transform: translateX(18px);
 }

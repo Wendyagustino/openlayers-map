@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GIS RTH Pekanbaru</title>
+    <link rel="stylesheet" href="map.css">
+</head>
+<body class="map-page">
+    <div id="map"></div>
+
+    <div class="map-card filter-card">
+        <a href="index.html" style="text-decoration: none; display: block; background: #2e7d32; color: white; text-align: center; padding: 8px; border-radius: 8px; font-size: 12px; font-weight: bold; margin-bottom: 15px;">🏠 Beranda</a>
+        
+        <h4>🌿 Layer RTH</h4>
+        <label><input type="checkbox" class="filter-rth" value="Taman" checked> Taman Kota</label>
+        <label><input type="checkbox" class="filter-rth" value="Jalur Hijau" checked> Jalur Hijau</label>
+        <label><input type="checkbox" class="filter-rth" value="Hutan" checked> Hutan Kota</label>
+        <label><input type="checkbox" class="filter-rth" value="Kebun Bibit" checked> Kebun Bibit</label>
+
+        <hr style="border: 0; border-top: 1px solid #eee; margin: 10px 0;">
+        
+        <h4>📊 Analisis Buffer</h4>
+        <select id="filter-buffer-type" style="width: 100%; padding: 5px; border-radius: 5px; border: 1px solid #ddd; font-size: 12px;">
+            <option value="pengunjung">Pengunjung</option>
+            <option value="kebersihan">Kebersihan</option>
+            <option value="fasilitas">Fasilitas</option>
+        </select>
+
+        <div style="display: flex; align-items: center; justify-content: space-between; margin-top: 15px;">
+            <span style="font-size: 12px; font-weight: bold;">Wilayah (Polygon)</span>
+            <label class="switch">
+                <input type="checkbox" id="toggle-kecamatan" checked>
+                <span class="slider"></span>
+            </label>
+        </div>
+    </div>
+
+    <div id="info-card" class="map-card" style="top: 20px; right: 20px; width: 280px; display: none; border-left: 5px solid #2e7d32;">
+        <a href="#" id="close-card" style="position: absolute; top: 10px; right: 12px; text-decoration: none; color: #777;">✖</a>
+        <div id="card-content">
+            </div>
+    </div>
+
+    <div class="map-card legend-card">
+        <h4>Legenda</h4>
+        <div class="legend-item"><img src="icon/taman.png"> Taman Kota</div>
+        <div class="legend-item"><img src="icon/hutan_kota.png"> Hutan Kota</div>
+        <div class="legend-item"><img src="icon/jalur_hijau.png"> Jalur Hijau</div>
+    </div>
+
+    <script type="module" src="openlayer.js"></script>
+</body>
+</html>
